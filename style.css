@@ -1,0 +1,128 @@
+body {
+    margin: 0;
+    padding: 0 20px;
+    background-color: black;
+}
+
+/* Стили для елки */
+.tree-container {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.tree-image {
+    width: 80%;
+    max-width: 300px;
+    height: auto;
+}
+
+/* Стили для поздравления */
+.greeting {
+    text-align: center;
+    font-size: 2.5em;
+    color: #ffcc00;
+    margin-top: 20px;
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+}
+
+/* Стили для ввода имени */
+.name-input {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 30px;
+    position: relative;
+    z-index: 2;
+}
+
+.name-input label {
+    font-size: 1.5em;
+    color: #ffffff;
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+    margin-bottom: 10px;
+}
+
+.name-input input {
+    padding: 10px;
+    font-size: 1.2em;
+    margin-left: 10px;
+    border: 2px solid #ffcc00;
+    border-radius: 5px;
+    transition: border-color 0.3s;
+    margin-bottom: 10px;
+}
+
+.name-input input:focus {
+    border-color: #ff6600;
+    outline: none;
+}
+
+/* Стили для кнопки */
+.name-input button {
+    padding: 10px 20px;
+    font-size: 1.2em;
+    margin-left: 10px;
+    cursor: pointer;
+    background-color: #ffcc00;
+    color: #000;
+    border: none;
+    border-radius: 5px;
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+.name-input button:hover {
+    background-color: #ff6600;
+    transform: scale(1.05);
+}
+
+/* Стили для персонального поздравления */
+#santa-greeting {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.santa-image {
+    width: 40%;
+    max-width: 200px;
+    height: auto;
+}
+
+#personal-greeting {
+    font-size: 1.8em;
+    color: #ffcc00;
+    margin-top: 20px;
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+    text-align: center;
+}
+
+#tree-canvas {
+    z-index: 1;
+}
+
+/* Стили для советов */
+#new-year-tips {
+    margin: 20px auto;
+    max-width: 600px;
+    text-align: center;
+    color: #ffffff;
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+    z-index: 2;
+    /* Поверх Canvas */
+    position: relative;
+}
+
+#new-year-tips h2 {
+    font-size: 2em;
+    color: #ffcc00;
+    margin-bottom: 10px;
+}
+
+#new-year-tips p {
+    font-size: 1.2em;
+    line-height: 1.5;
+    white-space: pre-wrap;
+    /* Чтобы сохранять переводы строк */
+}
