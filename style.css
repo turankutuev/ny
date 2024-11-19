@@ -22,7 +22,7 @@ body {
     font-size: 2.5em;
     color: #ffcc00;
     margin-top: 20px;
-    font-family: 'Comic Sans MS', cursive, sans-serif;
+    font-family: 'Comic Sans MS', sans-serif;
 }
 
 /* Стили для ввода имени */
@@ -69,7 +69,7 @@ body {
     color: #000;
     border: none;
     border-radius: 5px;
-    font-family: 'Comic Sans MS', cursive, sans-serif;
+    font-family: 'Comic Sans MS', sans-serif;
     transition: background-color 0.3s, transform 0.3s;
 }
 
@@ -94,7 +94,7 @@ body {
     font-size: 1.8em;
     color: #ffcc00;
     margin-top: 20px;
-    font-family: 'Comic Sans MS', cursive, sans-serif;
+    font-family: 'Comic Sans MS', sans-serif;
     text-align: center;
 }
 
@@ -108,7 +108,7 @@ body {
     max-width: 600px;
     text-align: center;
     color: #ffffff;
-    font-family: 'Comic Sans MS', cursive, sans-serif;
+    font-family: 'Comic Sans MS', sans-serif;
     z-index: 2;
     /* Поверх Canvas */
     position: relative;
