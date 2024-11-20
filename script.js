@@ -8,7 +8,7 @@ function showGreeting() {
     // Отображение персонального поздравления
     var greetingContainer = document.getElementById('santa-greeting');
     var personalGreeting = document.getElementById('personal-greeting');
-    personalGreeting.textContent = 'Дорогой ' + name + ' Поздравляю тебя с самым волшебным праздником — Новым годом! ❄️';
+    personalGreeting.textContent = 'Дорогой ' + name + '  «Кумтор Голд Компани» поздравляет тебя с самым волшебным праздником — Новым годом! ❄️';
     greetingContainer.style.display = 'block';
 
     // Отображение советов
